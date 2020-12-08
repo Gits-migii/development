@@ -1,3 +1,5 @@
+// ページ読み込んだらって書いてない。
+
 const answer = document.getElementById("answer-btn");
 answer.addEventListener("click", e =>{
     Calculator.getAnswer();
@@ -42,6 +44,9 @@ class Calculator{
         return oparational_sign;
     }
 
+    // なんてまどろっこしいんだとは思ってる
+    // なんとかする
+    
     /**
      * 入力された四則演算記号を分岐する
      */
