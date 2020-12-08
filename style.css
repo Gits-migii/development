@@ -1,0 +1,36 @@
+#answer-btn {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid 10px #004c97;
+    font-size: 64px;
+    background-color: white;
+}
+
+.number {
+    width: 300px;
+    height: 300px;
+    border: solid 10px #eb6100;
+    border-radius: 10px;
+    font-size: 80px;
+}
+
+#sign {
+    width: 100px;
+    height: 100px;
+    border: solid 10px #15722c;
+    border-radius: 10px;
+    font-size: 64px;
+}
+
+input {
+    text-align: center;
+}
+
+/* .contents {
+    flex: auto;
+} */
+
+/* .colculate_item {
+    display: inline;
+} */

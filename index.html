@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- HEADERは必ず必要？ -->
+    </header>
+
+    <main>
+        <div>
+            <!-- sectionの使いどころわからん -->
+            <section>
+                <!-- クラスの命名がわからん -->
+                <div class="contents">
+                    <span>
+                        <!-- inputはid指定でいいのか？ -->
+                        <!-- pタグはインライン要素だから自然と横並びになると思ってた(違うの？) -->
+                        <!-- そもそもpタグの野郎はブロック要素なのか。spanタグにしてみる -->
+                        <!-- spanにしたら横並びになったけど、中央によってくれない -->
+                        <!-- 選択すると黒枠出るのどうにかならんのか -->
+                        <input type="text" id="column-1" class="number colculate_item">
+                    </span>
+                    <span>
+                        <!-- くそだせえから文字大きくしてみた -->
+                        <!-- セレクト内の文字を中央に寄せたい -->
+                        <select id="sign" class="colculate_item">
+                            <option>+</option>
+                            <option>-</option>
+                            <option>*</option>
+                            <option>/</option>
+                        </select>
+                    </span>
+                    <span>
+                        <input type="text" id="column-2" class="number colculate_item">
+                    </span>
+                    <button type="button" id="answer-btn">こたえ</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
